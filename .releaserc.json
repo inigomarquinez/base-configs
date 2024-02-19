@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@inigomarquinez/semantic-release-config"
-  ]
-}

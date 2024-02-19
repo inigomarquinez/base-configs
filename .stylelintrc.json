@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@inigomarquinez/stylelint-config/css"
-  ]
-}
