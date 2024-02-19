@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.DS_Store
+
+# Omit some files and folders until they are ready to be published
+!/packages
+/packages/*
+!packages/prettier-config
+
+!/.github/workflows
+/.github/workflows/*
+!/.github/workflows/release.yml
