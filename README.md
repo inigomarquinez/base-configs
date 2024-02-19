@@ -31,12 +31,12 @@ Check the `README` of each package in the [`packages`][packages-link] directory 
 
 | Tool | Package | Version |
 | ---- | ------- | ------- |
+| [Prettier][prettier-link] | [@inigomarquinez/prettier-config](./packages/prettier-config) | [![@inigomarquinez/prettier-config][prettier-badge]][prettier-npm] |
 <!-- | [Browserslist][browserslist-link] | [@inigomarquinez/browserslist-config](./packages/browserslist-config) | [![@inigomarquinez/browserslist-config][browserslist-badge]][browserslist-npm] |
 | [commitLint][commitlint-link] | [@inigomarquinez/commitlint-config](./packages/commitlint-config) | [![@inigomarquinez/commitlint-config][commitlint-badge]][commitlint-npm] |
 | [ESLint][eslint-link] | [@inigomarquinez/eslint-config](./packages/eslint-config) | [![@inigomarquinez/eslint-config][eslint-badge]][eslint-npm] |
-| [MarkdownLint][markdownlint-link] | [@inigomarquinez/markdownlint-config](./packages/markdownlint-config) | [![@inigomarquinez/markdownlint-config][markdownlint-badge]][markdownlint-npm] | -->
-| [Prettier][prettier-link] | [@inigomarquinez/prettier-config](./packages/prettier-config) | [![@inigomarquinez/prettier-config][prettier-badge]][prettier-npm] |
-<!-- | [semantic-release][semantic-release-link] | [@inigomarquinez/semantic-release-config](./packages/semantic-release-config) | [![@inigomarquinez/semantic-release-config][semantic-release-badge]][semantic-release-npm] |
+| [MarkdownLint][markdownlint-link] | [@inigomarquinez/markdownlint-config](./packages/markdownlint-config) | [![@inigomarquinez/markdownlint-config][markdownlint-badge]][markdownlint-npm] |
+| [semantic-release][semantic-release-link] | [@inigomarquinez/semantic-release-config](./packages/semantic-release-config) | [![@inigomarquinez/semantic-release-config][semantic-release-badge]][semantic-release-npm] |
 | [stylelint][stylelint-link] | [@inigomarquinez/stylelint-config](./packages/stylelint-config) | [![@inigomarquinez/stylelint-config][stylelint-badge]][stylelint-npm] | -->
 
 
