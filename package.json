@@ -29,6 +29,9 @@
     "type": "git",
     "url": "https://github.com/inigomarquinez/base-configs.git"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "version": "changeset version",
     "release": "changeset publish",
