@@ -1,7 +1,7 @@
 'use strict'
 
 // https://prettier.io/docs/en/options
-module.exports = {
+export default {
   arrowParens: 'avoid',
   experimentalTernaries: true,
   singleAttributePerLine: true,
