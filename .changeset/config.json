@@ -6,6 +6,10 @@
       "repo": "inigomarquinez/base-configs"
     }
   ],
+  "privatePackages": {
+    "version": true,
+    "tag": true
+  },
   "commit": false,
   "fixed": [],
   "linked": [],
