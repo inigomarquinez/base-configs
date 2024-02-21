@@ -1,0 +1,16 @@
+---
+# npm-check-updates configuration used by deps:check && deps:update
+# convenience scripts.
+# @link https://github.com/raineorshine/npm-check-updates
+
+cache: true
+cacheExpiration: 60
+concurrency: 10
+deep: true
+format: [group]
+interactive: true
+mergeConfig: true
+peer: true
+
+# Add here exclusions on packages if any
+reject: []
