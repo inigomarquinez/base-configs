@@ -1,0 +1,58 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ["javascript"]
+
+    steps:
+      - name: 🔐 Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
+      - name: ⚙️ Git Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          fetch-depth: 0
+
+      - name: ⚙️ Initialize CodeQL
+        uses: github/codeql-action/init@e2e140ad1441662206e8f97754b166877dfa1c73 # v3.24.4
+        with:
+          languages: ${{ matrix.language }}
+
+      # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
+      # If this step fails, then you should remove it and run the build manually (see below)
+      - name: ⚙️ Autobuild
+        uses: github/codeql-action/autobuild@e2e140ad1441662206e8f97754b166877dfa1c73 # v3.24.4
+
+      # ℹ️ Command-line programs to run using the OS shell.
+      # 📚 https://git.io/JvXDl
+
+      # ✏️ If the Autobuild fails above, remove it and uncomment the following three lines
+      #    and modify them (or add more) to build your code if your project
+      #    uses a compiled language
+
+      #- run: |
+      #   make bootstrap
+      #   make release
+
+      - name: 🔎 Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@e2e140ad1441662206e8f97754b166877dfa1c73 # v3.24.4

@@ -1,0 +1,47 @@
+name: Pull Request compliance
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+
+permissions: {}
+
+jobs:
+  compliance:
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: 🔐 Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        with:
+          egress-policy: audit
+
+      - name: ⚙️ Git Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        with:
+          fetch-depth: 0
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
+        with:
+          node-version: 20
+
+      - name: ⚙️ Install dependencies
+        run: npm clean-install
+        env:
+          HUSKY: '0'
+
+      - name: 🕵️ Linter
+        run: npm run lint
+        env:
+          HUSKY: '0'
+
+      - name: 🕵️ commitlint
+        uses: wagoid/commitlint-github-action@5ce82f5d814d4010519d15f0552aec4f17a1e1fe # v5.4.5
