@@ -24,6 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/inigomarquinez/base-configs.git"
   },
+    "type": "module",
   "scripts": {
     "postinstall": "node scripts/postinstall.js"
   },
