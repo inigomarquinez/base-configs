@@ -45,7 +45,7 @@ After installing it, a `.prettierrc` file will be created automatically in the p
 
 ## 📚 Documentation
 
-Read the [Prettier docs][prettier-docs-link] for more information.
+Read the [Prettier docs][prettier-docs-link] for more information. [Here][prettier-sharing-configurations-link] you can find specific information about sharing configurations.
 
 ## 🧩 Contributing
 
@@ -68,6 +68,7 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [npm-link]: https://www.npmjs.com/package/@inigomarquinez/prettier-config
 [prettier-docs-link]: https://prettier.io
 [prettier-link]: https://github.com/prettier/prettier
+[prettier-sharing-configurations-link]: https://prettier.io/docs/en/configuration#sharing-configurations
 [pull-request-link]: https://github.com/inigomarquinez/base-configs/pulls
 
 <!-- badges -->
