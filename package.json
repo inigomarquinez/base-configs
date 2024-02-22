@@ -35,6 +35,7 @@
   "scripts": {
     "commit": "git-cz",
     "deps:check": "npx npm-check-updates",
+    "changeset": "changeset",
     "version": "changeset version",
     "release": "changeset publish",
     "prepare": "husky || true"
