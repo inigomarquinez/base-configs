@@ -135,7 +135,3 @@ dist
 !/packages
 /packages/*
 !packages/prettier-config
-
-!/.github/workflows
-/.github/workflows/*
-!/.github/workflows/release.yml
