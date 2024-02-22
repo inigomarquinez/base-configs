@@ -2,31 +2,24 @@
   "name": "@inigomarquinez/prettier-config",
   "version": "1.0.1",
   "description": "@inigomarquinez shareable configuration for Prettier.",
-  "author": {
-    "name": "Íñigo Marquínez Prado"
-  },
-  "bugs": {
-    "url": "https://github.com/inigomarquinez/base-configs/issues"
-  },
-  "engines": {
-    "node": ">= 18",
-    "npm": ">= 9"
-  },
-  "files": [
-    "index.js",
-    "scripts/*"
-  ],
-  "homepage": "https://github.com/inigomarquinez/base-configs/tree/main/packages/prettier-config#readme",
   "keywords": [
     "config",
     "prettier",
     "prettier-config"
   ],
-  "license": "MIT",
-  "main": "index.js",
-  "publishConfig": {
-    "access": "public"
+  "homepage": "https://github.com/inigomarquinez/base-configs/tree/main/packages/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/inigomarquinez/base-configs/issues"
   },
+  "license": "MIT",
+  "author": {
+    "name": "Íñigo Marquínez Prado"
+  },
+  "files": [
+    "index.js",
+    "scripts/*"
+  ],
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inigomarquinez/base-configs.git"
@@ -36,5 +29,12 @@
   },
   "dependencies": {
     "prettier": "3.2.5"
+  },
+  "engines": {
+    "node": ">= 18",
+    "npm": ">= 9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
