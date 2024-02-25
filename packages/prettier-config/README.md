@@ -10,6 +10,7 @@
 
 - [Installation](#📦-installation)
 - [Documentation](#📚-documentation)
+- [Custom configuration](#📚-custom-configuration)
 - [Contributing](#🧩-contributing)
 - [Changelog](#📝-changelog)
 - [License](#©️-license)
@@ -47,6 +48,18 @@ After installing it, a `.prettierrc` file will be created automatically in the p
 
 Read the [Prettier docs][prettier-docs-link] for more information. [Here][prettier-sharing-configurations-link] you can find specific information about sharing configurations.
 
+## 📏 Custom options
+
+The library customises the following options. All other options take their default value as defined [here][prettier-options-link].
+
+| Option | Custom value |
+| ------ | ------------ |
+| [arrowParens][prettier-option-arrow-parens-link] | `'avoid'` |
+| [experimentalTernaries][prettier-option-experimental-ternaries-link] | `true` |
+| [jsxSingleQuote][prettier-option-jsx-single-quote-link] | `true` |
+| [singleAttributePerLine][prettier-option-single-attribute-per-line-link] | `true` |
+| [singleQuote][prettier-option-single-quote-link] | `true` |
+
 ## 🧩 Contributing
 
 If you are interested in helping contribute, please open an [issue][issue-link] or [pull request][pull-request-link].
@@ -68,6 +81,12 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [npm-link]: https://www.npmjs.com/package/@inigomarquinez/prettier-config
 [prettier-docs-link]: https://prettier.io
 [prettier-link]: https://github.com/prettier/prettier
+[prettier-option-arrow-parens-link]: https://prettier.io/docs/en/options.html#arrow-function-parentheses
+[prettier-option-experimental-ternaries-link]: https://prettier.io/docs/en/options.html#experimental-ternaries
+[prettier-option-jsx-single-quote-link]: https://prettier.io/docs/en/options.html#jsx-quotes
+[prettier-option-single-attribute-per-line-link]: https://prettier.io/docs/en/options.html#single-attribute-per-line
+[prettier-option-single-quote-link]: https://prettier.io/docs/en/options.html#quotes
+[prettier-options-link]: https://prettier.io/docs/en/options.html
 [prettier-sharing-configurations-link]: https://prettier.io/docs/en/configuration#sharing-configurations
 [pull-request-link]: https://github.com/inigomarquinez/base-configs/pulls
 
