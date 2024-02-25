@@ -1,5 +1,11 @@
 # @inigomarquinez/prettier-config
 
+## 2.0.0
+
+### Major Changes
+
+- [#7](https://github.com/inigomarquinez/base-configs/pull/7) [`ea5eaab`](https://github.com/inigomarquinez/base-configs/commit/ea5eaabda6b69af3ca26899a0ce78607a00843bf) Thanks [@inigomarquinez](https://github.com/inigomarquinez)! - Set jsxSingleQuote option to true, overriding the default false value.
+
 ## 1.0.2
 
 ### Patch Changes
