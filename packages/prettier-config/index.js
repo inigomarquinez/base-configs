@@ -4,6 +4,7 @@
 module.exports = {
   arrowParens: 'avoid',
   experimentalTernaries: true,
+  jsxSingleQuote: true,
   singleAttributePerLine: true,
   singleQuote: true,
 }
