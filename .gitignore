@@ -135,3 +135,4 @@ dist
 !/packages
 /packages/*
 !packages/prettier-config
+!packages/npm-package-json-lint-config-default
