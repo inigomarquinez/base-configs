@@ -1,6 +1,6 @@
 {
   "name": "@inigomarquinez/npm-package-json-lint-config-default",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "@inigomarquinez shareable configuration for npm-package-json-lint.",
   "keywords": [
     "config",
