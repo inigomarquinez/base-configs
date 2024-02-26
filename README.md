@@ -31,7 +31,8 @@ Check the `README` of each package in the [`packages`][packages-link] directory 
 
 | Tool | Package | Version |
 | ---- | ------- | ------- |
-| [Prettier][prettier-link] | [@inigomarquinez/prettier-config](./packages/prettier-config) | [![@inigomarquinez/prettier-config][prettier-badge]][prettier-npm] |
+| [npm-package-json-lint][npm-package-json-lint-link] | [@inigomarquinez/npm-package-json-lint-config-default](./packages/npm-package-json-lint-config-default) | [![@inigomarquinez/npm-package-json-lint-config-default][inigomarquinez-npm-package-json-lint-config-default-badge]][inigomarquinez-npm-package-json-lint-config-default-npm] |
+| [Prettier][prettier-link] | [@inigomarquinez/prettier-config](./packages/prettier-config) | [![@inigomarquinez/prettier-config][inigomarquinez-prettier-config-badge]][inigomarquinez-prettier-config-npm] |
 <!-- | [Browserslist][browserslist-link] | [@inigomarquinez/browserslist-config](./packages/browserslist-config) | [![@inigomarquinez/browserslist-config][browserslist-badge]][browserslist-npm] |
 | [commitLint][commitlint-link] | [@inigomarquinez/commitlint-config](./packages/commitlint-config) | [![@inigomarquinez/commitlint-config][commitlint-badge]][commitlint-npm] |
 | [ESLint][eslint-link] | [@inigomarquinez/eslint-config](./packages/eslint-config) | [![@inigomarquinez/eslint-config][eslint-badge]][eslint-npm] |
@@ -71,7 +72,7 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 [license-badge]: https://img.shields.io/github/license/inigomarquinez/base-configs?style=flat-square&labelColor=292a44&color=663399
 
 <!-- available configurations table -->
-[browserslist-badge]: https://img.shields.io/npm/v/@inigomarquinez/browserslist-config?style=flat-square&labelColor=292a44&color=663399
+<!-- [browserslist-badge]: https://img.shields.io/npm/v/@inigomarquinez/browserslist-config?style=flat-square&labelColor=292a44&color=663399
 [browserslist-link]: https://github.com/browserslist/browserslist
 [browserslist-npm]: https://www.npmjs.com/package/@inigomarquinez/browserslist-config
 
@@ -85,16 +86,20 @@ Distributed under the MIT License. See [LICENSE][license-link] for more informat
 
 [markdownlint-badge]: https://img.shields.io/npm/v/@inigomarquinez/markdownlint-config?style=flat-square&labelColor=292a44&color=663399
 [markdownlint-link]: https://github.com/DavidAnson/markdownlint
-[markdownlint-npm]: https://www.npmjs.com/package/@inigomarquinez/markdownlint-config
+[markdownlint-npm]: https://www.npmjs.com/package/@inigomarquinez/markdownlint-config -->
 
-[prettier-badge]: https://img.shields.io/npm/v/@inigomarquinez/prettier-config?style=flat-square&labelColor=292a44&color=663399
+[npm-package-json-lint-link]: https://github.com/tclindner/npm-package-json-lint
+[inigomarquinez-npm-package-json-lint-config-default-npm]: https://www.npmjs.com/package/@inigomarquinez/npm-package-json-lint-config-default
+[inigomarquinez-npm-package-json-lint-config-default-badge]: https://img.shields.io/npm/v/@inigomarquinez/npm-package-json-lint-config-default?style=flat-square&labelColor=292a44&color=663399
+
 [prettier-link]: https://github.com/prettier/prettier
-[prettier-npm]: https://www.npmjs.com/package/@inigomarquinez/prettier-config
+[inigomarquinez-prettier-config-badge]: https://img.shields.io/npm/v/@inigomarquinez/prettier-config?style=flat-square&labelColor=292a44&color=663399
+[inigomarquinez-prettier-config-npm]: https://www.npmjs.com/package/@inigomarquinez/prettier-config
 
-[semantic-release-badge]: https://img.shields.io/npm/v/@inigomarquinez/semantic-release-config?style=flat-square&labelColor=292a44&color=663399
+<!-- [semantic-release-badge]: https://img.shields.io/npm/v/@inigomarquinez/semantic-release-config?style=flat-square&labelColor=292a44&color=663399
 [semantic-release-link]: https://github.com/semantic-release/semantic-release
 [semantic-release-npm]: https://www.npmjs.com/package/@inigomarquinez/semantic-release-config
 
 [stylelint-badge]: https://img.shields.io/npm/v/@inigomarquinez/stylelint-config?style=flat-square&labelColor=292a44&color=663399
 [stylelint-link]: https://github.com/stylelint/stylelint
-[stylelint-npm]: https://www.npmjs.com/package/@inigomarquinez/stylelint-config
+[stylelint-npm]: https://www.npmjs.com/package/@inigomarquinez/stylelint-config -->
