@@ -10,7 +10,7 @@
 
 - [Installation](#📦-installation)
 - [Documentation](#📚-documentation)
-- [Custom configuration](#📚-custom-configuration)
+- [Custom options](#📏-custom-options)
 - [Contributing](#🧩-contributing)
 - [Changelog](#📝-changelog)
 - [License](#©️-license)
