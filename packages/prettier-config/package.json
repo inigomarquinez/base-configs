@@ -28,7 +28,7 @@
     "postinstall": "node scripts/postinstall.js"
   },
   "dependencies": {
-    "prettier": "3.2.5"
+    "prettier": "3.3.2"
   },
   "engines": {
     "node": ">= 18",
